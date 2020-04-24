@@ -6,7 +6,7 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #33055B;
+  background-color: #2B044D;
   font-family: 'Oxygen', sans-serif;
   margin:0;
   padding: 0;
@@ -14,7 +14,7 @@ body {
 
 /** HEADER **/
 #header-nav {
-  background-color: #56089a;
+  background-color: #46067D;
   border:0;
   }
 #k{
@@ -92,11 +92,11 @@ body {
   margin-top: 50px;
   margin-left: -50px;
   margin-bottom: 40px;
-  width: 40vw;
+  width: 50%;
   box-shadow: 0 0 25px #611230;
 }
-.main-table{
-  
+table.main-table{
+  text-align: center;
   border: 2px ;
   border-style: solid;
   border-color: #05FF00; 
@@ -104,21 +104,92 @@ body {
   margin:50px -45px 20px 10px;
   border-collapse: collapse;
   }
-#top{
+
+table.main-table tr{
+  text-align: : center;
+  color: #FEFE00FF;
+  text-transform: uppercase;
+}
+table.main-table th{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.top{
     text-align:center;
-    background-color: #FA6F00;
+    background-color: #EF6700;
     border: 2px #05FF00 solid;
-    color: #32EEFF;
     padding-top: 10px;
     padding-bottom: 10px;
-   
 }
-tr{
+#HEADLINES{
+  font-family: 'Ultra', serif;
   text-align: center;
-  color: #FEFE00FF;
+  font-size: 1.4em;
+  padding-top: 15px;
+  padding-bottom: 15px; 
+  /*font-weight: bolder;*/
+  color:#3322EE;
+}
+.rank{
+  font-family: Aldrich;
+  color: #989c9b;
+  margin-left: 60px;
   padding-top: 10px;
-  padding-bottom: 10px;
-  text-transform: uppercase;
+  padding-bottom: 7px;
+}
+.wrapper {
+  margin-left: 70px;
+  width: 41%;
+  padding-top: 10px;
+  padding-bottom:10px;
+  overflow: hidden;
+}
+table.table1 {
+    border-collapse: collapse;
+    width: 100%;
+    background: #A5A;
+}
+table.table1 th {
+
+    background-color: #326295;
+    font-weight: bold;
+    color: #fff;
+    white-space: nowrap;
+}
+
+table.table1 td, th {
+    padding: 1em 1.5em;
+    text-align: left;
+}
+
+table.table1 tbody tr:hover {
+    background-color: rgba(50,98,149,.3);
+}
+
+table.table1 td.rank {
+  text-transform: capitalize;
+}
+.image{
+  float: right;
+  margin-top: -25.5%;
+  margin-right: 27em;
+  
+}
+.image1{
+  float: right;
+  margin-top: -25.5%;
+  margin-right: 4em;
+}
+.had{
+  color: #A52A2A;
+  font-family: ALdrich;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+.non a:hover{
+  text-decoration:none;
+  opacity: .5;
 }
 
 
