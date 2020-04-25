@@ -1,0 +1,129 @@
+*{
+  box-sizing: border-box
+  margin:0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #2B044D;
+  font-family: 'Oxygen', sans-serif;
+  margin:0;
+  padding: 0;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #46067D;
+  border:0;
+  }
+#k{
+  font-family: 'Ultra', serif;
+  color: #838383;
+  font-size:30px;
+  
+  text-shadow: 1px 1px #000000;
+  margin-top: 15px;
+  vertical-align: middle;
+  display: inline-block;
+
+}
+#one{
+  font-family: Aldrich  ;
+  font-size: 20px;
+  font-weight: bolder;
+  font-color:#004D0E; 
+}
+
+.navbar button.navbar-toggler{
+  border: 1px solid #7e2e02;
+  position: relative;
+}
+
+/* END HEADER */
+
+/* FOOTER */
+.panel-footer {
+  clear: both;
+  position: relative;
+  height: 200px;
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#third{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+/* END FOOTER */
+
+/*HOME PAGE*/
+
+.category-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #F1A15F;
+  opacity: .8;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+#menu-categories-title ,h2{
+  font-family: Aldrich;
+  text-transform: uppercase;
+  color: #726345;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#model {
+  font-family: Orbitron;
+  font-size: 1.4em;
+  text-align: center;
+  word-spacing: 12px;
+
+ }
+#model a:hover{
+  text-decoration-line: none;
+  opacity: .6 ;
+  color: #726345;#8484E2
+}
