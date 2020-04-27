@@ -79,6 +79,7 @@ body {
   margin-top: 25px;
 }
 /* END FOOTER */
+
 .row{
   margin-left: 90px;
   margin-top: 10px;
@@ -112,9 +113,8 @@ body {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 .log{
-  width: 70%;
-  margin-top: -150px;
-  margin-left: 300px;
+  width: 60%;
+  margin-left: 400px;
   text-align: center;
   font-family: Lora;
 }
@@ -122,6 +122,60 @@ body {
   padding-bottom: 10px;
   font-family: Orbitron;
   color: #199DB8FF;
+}
+#container{
+  width:100%;
+  margin-top: 2em;
+  margin-left: 3.5em;
+}
+.pricetab>h4{
+  font-family: Girasso;
+}
+.infos>h5{
+  font-family: aldrich;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.pricetab{
+  width:22%;
+  margin-left: 1em;
+  margin-top: -2em;
+  margin-bottom: 2em;
+  min-width:220px;
+  background: linear-gradient(#555, #444);
+  float:left;
+  text-align: center;
+  margin-top:.2%;
+  box-shadow:1px 1px 5px rgba(0, 0, 0, .5);
+}
+
+.infos{
+  margin-top:10%;
+}
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: #0A0A0AFF;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #4E63E8;}
+#customers tr:nth-child(odd){background-color: #EDBA11;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  /*padding-top: 12px;
+  padding-bottom: 12px;*/
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
 }
 /* Clearfix (clear floats) */
 
