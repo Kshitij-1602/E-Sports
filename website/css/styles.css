@@ -91,9 +91,10 @@ body {
 
 #main-content img{
   margin-top: 50px;
-  margin-left: -50px;
+  /*margin left changed to align image in center*/
+  margin-left: -25px;
   margin-bottom: 40px;
-  width: 50%;
+  width: 100%;
   box-shadow: 0 0 25px #611230;
 }
 table.main-table{
@@ -154,6 +155,7 @@ table.table1 {
     border-collapse: collapse;
     width: 100%;
     background: #A5A;
+    /*display: inline-block;*/
 }
 table.table1 th {
 
@@ -171,33 +173,43 @@ table.table1 td, th {
 table.table1 tbody tr:hover {
     background-color: rgba(50,98,149,.3);
 }
+table.table1 tbody a{
+  text-decoration-line: none;
+}
 
 table.table1 td.rank {
   text-transform: capitalize;
 }
-.image{
+/*changes for css part */
+.column1 {
   float: right;
-  margin-top: -25.5%;
-  margin-right: 27em;
+  width: 17%;
+  margin-right:7%;
+  margin-top: -17%;
+  margin-bottom: 2%;
+}
+.category-tile1 { 
+  position: relative; 
+  overflow: hidden;
+  margin-top: -17%;
   
 }
-.image1{
-  float: right;
-  margin-top: -25.5%;
-  margin-right: 4em;
-}
-.had{
+.category-tile1 span{
   color: #A52A2A;
   font-family: ALdrich;
-  font-size: 1.5em;
+  font-size: 24px;
   font-weight: bolder;
+  text-transform:uppercase;
+  text-align: center;
+
 }
-.non a:hover{
-  text-decoration:none;
+.row1 a:hover{
+  text-decoration-line:none;
   opacity: .5;
 }
 
-
+/*classes addes and effects changed accordingly
+*/
 
 
 /* END HOME PAGE */

@@ -98,7 +98,9 @@ body {
   background: linear-gradient(#555, #444);
   float:left;
   align-content: nowrap;
-  margin:.5%;
+  /*margin changes from .5 % to 5 % for proper 
+  of the three specific weapons*/
+  margin:5%;
   box-shadow:1px 1px 5px rgba(0, 0, 0, .5);
 }
 .pricetab1{

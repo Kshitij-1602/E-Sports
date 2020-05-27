@@ -115,14 +115,34 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-#model {
+/*Edits made here*/
+.model {
   font-family: Orbitron;
   font-size: 2em;
   text-align: center;
   word-spacing: 12px;
+  padding: 10px;
+ }
+ /*id chenged to class and some new classes have been added*/
+ .model1{
+  float:left;
+  width: 20%;
+  height: 20%;
+  padding: 10px;
+ }
+
+ .model2{
+  position: relative; 
+  overflow: hidden;
+  margin: 10px auto 15px;
+ }
+ .model2 span{
+  text-transform: uppercase;
 
  }
-#model a:hover{
+ /*changes made till here in the css part,refer the html part for
+  img src and database values*/
+.model a:hover{
   text-decoration-line: none;
   opacity: .6 ;
   color: #726345;#8484E2
