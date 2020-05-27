@@ -95,7 +95,7 @@ body {
 }
 
 table img {
-   border-radius: 50%;
+   /*border-radius: 70%;   to convert logo from circle to square*/
    height:60px;
    width: 60px;
 }
